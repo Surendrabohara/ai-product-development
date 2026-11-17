@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+credentials.json
+
+# Cloudflare / Wrangler local state
+.wrangler/
+
+# Build and caches
+dist/
+.vite/
+*.tsbuildinfo
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor / agent skill copies (not part of the submitted app)
+.agents/
+.aider-desk/
+.cursor/

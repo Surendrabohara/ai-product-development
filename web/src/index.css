@@ -1,0 +1,5 @@
+/* Base reset lives mostly in App.css for this small app. */
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
